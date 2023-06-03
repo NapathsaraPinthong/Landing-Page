@@ -120,13 +120,13 @@ nav {
     text-align: center;
     gap: 3rem;
     color: #1F2937;
+
 }
 
 .info-block img {
-    width: 100%;
+    width: 10rem;
     aspect-ratio: 1/1;
     object-fit: cover;
-    max-width: 160px;
     border-radius: 15px;
     border: 4px solid #3882F6;
 }
@@ -136,9 +136,11 @@ nav {
     background-color: #E5E7EB;
     padding: 5rem;
 }
+
 .quote .container {
     padding: 0 5.5rem;
 }
+
 .quote-div p {
     font-size: 1.875rem;
     font-style: italic;
@@ -158,16 +160,19 @@ nav {
 .call-act {
     padding: 5em 0;
 }
+
 .call-act .container {
     background-color: #3882F6;
     border-radius: 10px;
     color: #F9FAF8;
     padding: 3rem 7rem;
 }
+
 .call-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .call-sign {
@@ -175,7 +180,8 @@ nav {
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    padding: 0.5rem 2.7rem;
+    padding: 0.5rem 0;
+    text-align: center;
 }
 
 .call-sign a {
@@ -196,29 +202,101 @@ footer {
     nav {
         padding: 0 3rem;
     }
+
     .hero {
         padding: 9rem 3rem 5.625rem;
     }
+
+    .info-div {
+        max-width: 170px;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .info-block img {
+        width: 13rem;
+    }
+
     .quote-div p {
         font-size: 1.7rem;
     }
+
     .quote-ath p {
         font-size: 1.3rem;
     }
+
     .call-act {
         padding: 5em 3rem;
     }
+
     .call-act .container {
         padding: 3rem 5rem;
     }
-    .call-sign {
-        margin-left: 1rem;
-        padding: 0.5rem 2rem;
-    }
+
 }
 
 @media screen and (max-width: 767px) {
     .logo h1 {
         color: blue;
+    }
+
+    nav {
+        padding: 0 1.5rem;
+    }
+
+    .hero {
+        padding: 9rem 3rem 5.625rem;
+    }
+
+    .hero .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-sign {
+        margin: 2rem auto 0;
+    }
+
+    .info-div {
+        max-width: 170px;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        padding: 0 7rem;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .info-block img {
+        width: 12rem;
+    }
+
+    .quote .container {
+        padding: 0 1rem;
+    }
+
+    .quote-div p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .quote-ath p {
+        font-size: 1.2rem;
+    }
+
+    .call-act {
+        padding: 5em 3rem;
+    }
+
+    .call-act .container {
+        padding: 2.5rem 3rem;
+    }
+
+    .call-block {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        text-align: center;
     }
 }
