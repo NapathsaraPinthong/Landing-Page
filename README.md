@@ -1,2 +1,2 @@
 # Landing-Page
-Creating a web page from a design using HTML and CSS.
+Creating a responsive web page from a design using HTML and CSS.
