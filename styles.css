@@ -239,7 +239,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     .logo h1 {
-        color: blue;
+        font-size: 1.2rem;
     }
 
     nav {
@@ -277,12 +277,12 @@ footer {
     }
 
     .quote-div p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: left;
     }
 
     .quote-ath p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .call-act {
