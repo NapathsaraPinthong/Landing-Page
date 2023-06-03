@@ -148,7 +148,7 @@ nav {
 }
 
 .quote-ath p {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: right;
     margin-top: 10px;
@@ -190,4 +190,35 @@ footer {
     height: 50px;
     padding: 1em 0;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        padding: 0 3rem;
+    }
+    .hero {
+        padding: 9rem 3rem 5.625rem;
+    }
+    .quote-div p {
+        font-size: 1.7rem;
+    }
+    .quote-ath p {
+        font-size: 1.3rem;
+    }
+    .call-act {
+        padding: 5em 3rem;
+    }
+    .call-act .container {
+        padding: 3rem 5rem;
+    }
+    .call-sign {
+        margin-left: 1rem;
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo h1 {
+        color: blue;
+    }
 }
