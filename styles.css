@@ -243,11 +243,16 @@ footer {
     }
 
     nav {
-        padding: 0 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .nav-con ul {
+        font-size: 1.1rem;
+        width: 11rem;
     }
 
     .hero {
-        padding: 9rem 3rem 5.625rem;
+        padding: 7rem 3rem 5.5rem;
     }
 
     .hero .container {
@@ -272,8 +277,11 @@ footer {
         width: 12rem;
     }
 
+    .quote {
+        padding: 3rem;
+    }
     .quote .container {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
     .quote-div p {
@@ -290,7 +298,7 @@ footer {
     }
 
     .call-act .container {
-        padding: 2.5rem 3rem;
+        padding: 2.5rem 3.8rem;
     }
 
     .call-block {
